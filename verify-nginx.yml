@@ -1,9 +1,0 @@
-- hosts: 
-  remote_user: 
-  become: yes
-  become_method: sudo
-  tasks:
-  - name: Check state of NGINX service
-    service:
-        name: nginx
-        state: started
