@@ -1,0 +1,9 @@
+- hosts: #servers group defined in ansible config
+  remote_user: #username on remote hosts
+  become: yes
+  become_method: sudo
+  tasks:
+  - name: Install latest NGINX service
+    yum:
+        name: nginx
+        state: latest
