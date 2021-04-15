@@ -1,0 +1,2 @@
+Do zrobienia
+skrypt wg którego podajemy nazwę pakietu zaś ansible nam sprawdza jego najnowsza wersję i czy jest w ogóle zainstalowany
