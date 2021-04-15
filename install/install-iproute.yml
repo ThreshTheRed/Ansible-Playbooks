@@ -1,7 +1,5 @@
-- hosts: serwery
-  remote_user: dannyn
+- hosts: "defined_hosts"
   become: yes
-  become_method: sudo
   tasks:
   - name: Install latest IPROUTE service
     yum:
